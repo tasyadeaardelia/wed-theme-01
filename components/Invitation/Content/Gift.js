@@ -82,7 +82,7 @@ export default function Gift() {
                     >
                         {/* Card Top (BCA and Chip) */}
                         <div className="flex justify-between items-start mb-5">
-                            <Image src="/img/bca.svg" alt="BCA" className="h-10" /> {/* <-- Pastikan path logo benar */}
+                            <Image src="/img/bca.svg" alt="BCA" className="h-10" width={100} height={100} /> {/* <-- Pastikan path logo benar */}
                         </div>
 
                         {/* Card Details */}

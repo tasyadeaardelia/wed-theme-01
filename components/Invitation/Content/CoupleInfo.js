@@ -1,7 +1,7 @@
 import FlowerFrame from "@/components/FlowerFrame/FlowerFrame";
 import BrideInfo from "./BrideInfo";
 import GroomInfo from "./GroomInfo";
-import { nunito_sans } from "@/app/font";
+import {nunito_sans, playball} from "@/app/font";
 
 export default function CoupleInfo() {
     return (
@@ -23,7 +23,7 @@ export default function CoupleInfo() {
                 <BrideInfo />
                 {/* Separator & */}
                 <div className="my-8">
-                    <span className={`${nunito_sans.className} text-[32px] font-bold text-[#685952]`}>&amp;</span>
+                    <span className={`${playball.className} text-[32px] font-bold text-[#685952]`}>&amp;</span>
                 </div>
                 <GroomInfo />
             </div>
