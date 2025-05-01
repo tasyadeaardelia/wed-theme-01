@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion"
 import {FaCreditCard, FaRegCopy} from "react-icons/fa";
 import {nunito_sans, playball, sora} from "@/app/font";
+import Image from "next/image";
 
 
 
@@ -81,7 +82,7 @@ export default function Gift() {
                     >
                         {/* Card Top (BCA and Chip) */}
                         <div className="flex justify-between items-start mb-5">
-                            <img src="/img/bca.svg" alt="BCA" className="h-10" /> {/* <-- Pastikan path logo benar */}
+                            <Image src="/img/bca.svg" alt="BCA" className="h-10" /> {/* <-- Pastikan path logo benar */}
                         </div>
 
                         {/* Card Details */}

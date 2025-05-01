@@ -1,4 +1,5 @@
 import FlowerFrame from "@/components/FlowerFrame/FlowerFrame";
+import Image from "next/image";
 
 export default function ThankYou() {
     return (
@@ -11,9 +12,10 @@ export default function ThankYou() {
 
             <div className="relative z-10 max-w-xl mx-auto bg-[#FFFFFF95] border-solid border border-[#ffffffcc] transition-[background,border,border-radius,box-shadow] duration-300 mt-0 mb-0 p-0 rounded-3xl shadow-lg py-10 px-8 text-center">
                 <div className="mt-8 flex justify-center">
-                    <img
+                    <Image
                         src="/img/04.jpeg"
                         alt="Couple"
+                        width={100} height={100}
                         className="w-60 h-70 object-cover rounded-full border-4 border-white shadow-md"
                     />
                 </div>

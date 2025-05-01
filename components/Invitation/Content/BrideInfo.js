@@ -1,14 +1,17 @@
 import {nunito_sans, playball} from "@/app/font";
 import {FaInstagram} from "react-icons/fa6";
+import Image from "next/image";
 
 export default function BrideInfo() {
     return (
         <>
             <div className="mt-8 flex justify-center">
-                <img
+                <Image
                     src="/img/04-02.jpg"
                     alt="Eva"
                     className="w-40 h-40 object-cover rounded-full border-4 border-white shadow-md"
+                    width={100}
+                    height={100}
                 />
             </div>
             <h4 className={`${playball.className} mt-6 text-2xl text-[#685952]`}>Eva</h4>

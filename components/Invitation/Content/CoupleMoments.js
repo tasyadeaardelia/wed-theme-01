@@ -1,6 +1,7 @@
 import FlowerFrame from "@/components/FlowerFrame/FlowerFrame";
 import {playball} from "@/app/font";
 import {useState} from "react";
+import Image from "next/image";
 
 const images = [
     "/img/01.jpeg",
@@ -29,19 +30,21 @@ export default function CoupleMoments() {
 
                 <div className="grid gap-4">
                     <div>
-                        <img
+                        <Image
                             className="h-auto max-w-full rounded-lg"
                             src={selectedImage}
                             alt="Selected"
+                            width={600} height={80}
                         />
                     </div>
                     <div className="grid grid-cols-5 gap-4">
                         {images.map((img, idx) => (
                             <div key={idx}>
-                                <img
+                                <Image
                                     className="h-auto max-w-full rounded-lg cursor-pointer transition duration-200 ease-in-out hover:opacity-75 hover:scale-205"
                                     src={img}
                                     alt={`Thumbnail ${idx + 1}`}
+                                    width={100} height={100}
                                     onClick={() => setSelectedImage(img)}
                                 />
                             </div>

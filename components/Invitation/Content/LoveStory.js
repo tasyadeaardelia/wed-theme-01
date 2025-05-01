@@ -1,5 +1,6 @@
 import FlowerFrame from "@/components/FlowerFrame/FlowerFrame";
 import {nunito_sans, playball} from "@/app/font";
+import Image from "next/image";
 
 export default function LoveStory() {
     return (
@@ -29,7 +30,7 @@ export default function LoveStory() {
                     {/* Story Card */}
                     <div className="bg-white rounded-2xl shadow-lg p-6 w-full max-w-2xl">
                         <div className="overflow-hidden rounded-xl mb-4">
-                            <img src="/img/01.jpeg" alt="Love Story" className="w-full h-50 object-cover" />
+                            <Image src="/img/01.jpeg" alt="Love Story" className="w-full h-50 object-cover" width={200} height={200} />
                         </div>
                         <h3 className="text-lg font-bold text-[#685952] mb-2">25 AGUSTUS 2023</h3>
                         <p className="text-[#333] text-sm">
@@ -56,7 +57,7 @@ export default function LoveStory() {
                     {/* Story Card */}
                     <div className="bg-white rounded-2xl shadow-lg p-6 w-full max-w-2xl">
                         <div className="overflow-hidden rounded-xl mb-4">
-                        <img src="/img/02.jpeg" alt="Love Story" className="w-full h-50 object-cover" />
+                        <Image src="/img/02.jpeg" alt="Love Story" className="w-full h-50 object-cover" width={200} height={200} />
                         </div>
                         <h3 className="text-lg font-bold text-[#685952] mb-2">25 AGUSTUS 2023</h3>
                         <p className="text-[#333] text-sm">
@@ -73,7 +74,7 @@ export default function LoveStory() {
                     <div className="flex flex-col items-center mr-6 relative">
                         {/* Heart icon */}
                         <div className="bg-white rounded-full p-3 shadow-lg border-2 border-[#69564B] z-10">
-                        <span className="text-2xl text-[#69564B]">❤️</span>
+                            <span className="text-2xl text-[#69564B]">❤️</span>
                         </div>
 
                         {/* Vertical line */}
@@ -83,12 +84,12 @@ export default function LoveStory() {
                     {/* Story Card */}
                     <div className="bg-white rounded-2xl shadow-lg p-6 w-full max-w-2xl">
                         <div className="overflow-hidden rounded-xl mb-4">
-                        <img src="/img/03.jpeg" alt="Love Story" className="w-full h-50 object-cover" />
+                            <Image src="/img/03.jpeg" alt="Love Story" className="w-full h-50 object-cover" width={200} height={500} />
                         </div>
                         <h3 className="text-lg font-bold text-[#685952] mb-2">25 AGUSTUS 2023</h3>
                         <p className="text-[#333] text-sm">
-                        Berawal dari tempat pekerjaan Cianjur-2023, kami mengenal satu sama lain
-                        dan belum ada benih cinta kala itu, hanya sebatas teman kerja.
+                            Berawal dari tempat pekerjaan Cianjur-2023, kami mengenal satu sama lain
+                            dan belum ada benih cinta kala itu, hanya sebatas teman kerja.
                         </p>
                     </div>
 
