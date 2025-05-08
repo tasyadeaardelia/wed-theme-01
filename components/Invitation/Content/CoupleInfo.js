@@ -20,12 +20,12 @@ export default function CoupleInfo() {
                     kami mengundang Bapak/Ibu/Saudara/i untuk hadir dalam acara pernikahan kami.
                     Kehadiran dan doa restu Anda merupakan kehormatan dan kebahagiaan bagi kami.
                 </p>
-                <BrideInfo />
+                <GroomInfo />
                 {/* Separator & */}
                 <div className="my-8">
                     <span className={`${playball.className} text-[32px] font-bold text-[#685952]`}>&amp;</span>
                 </div>
-                <GroomInfo />
+                <BrideInfo />
             </div>
         </section>
     )

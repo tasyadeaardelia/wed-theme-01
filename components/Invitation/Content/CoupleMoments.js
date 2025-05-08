@@ -4,15 +4,15 @@ import {useState} from "react";
 import Image from "next/image";
 
 const images = [
-    "/img/01.jpeg",
-    "/img/02.jpeg",
-    "/img/03.jpeg",
-    "/img/04.jpeg",
+    "https://jova-admin.mantappdev.com/storage/photos/gallery-1.jpg",
+    "https://jova-admin.mantappdev.com/storage/photos/gallery-2.jpg",
+    "https://jova-admin.mantappdev.com/storage/photos/gallery-3.jpg",
+    "https://jova-admin.mantappdev.com/storage/photos/gallery-4.jpg",
 ];
 
 export default function CoupleMoments() {
     const [selectedImage, setSelectedImage] = useState(
-        "/img/01.jpeg"
+        "https://jova-admin.mantappdev.com/storage/photos/gallery-3.jpg",
     );
 
     return (

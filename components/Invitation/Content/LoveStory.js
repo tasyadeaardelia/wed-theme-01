@@ -30,7 +30,7 @@ export default function LoveStory() {
                     {/* Story Card */}
                     <div className="bg-white rounded-2xl shadow-lg p-6 w-full max-w-2xl">
                         <div className="overflow-hidden rounded-xl mb-4">
-                            <Image src="/img/01.jpeg" alt="Love Story" className="w-full h-50 object-cover" width={200} height={200} />
+                            <Image src="https://jova-admin.mantappdev.com/storage/photos/love_story-1.jpg" alt="Love Story" className="w-full h-50 object-cover" width={200} height={200} />
                         </div>
                         <h3 className="text-lg font-bold text-[#685952] mb-2">25 AGUSTUS 2023</h3>
                         <p className="text-[#333] text-sm">
@@ -57,7 +57,7 @@ export default function LoveStory() {
                     {/* Story Card */}
                     <div className="bg-white rounded-2xl shadow-lg p-6 w-full max-w-2xl">
                         <div className="overflow-hidden rounded-xl mb-4">
-                        <Image src="/img/02.jpeg" alt="Love Story" className="w-full h-50 object-cover" width={200} height={200} />
+                        <Image src="https://jova-admin.mantappdev.com/storage/photos/love_story-2.jpg" alt="Love Story" className="w-full h-50 object-cover" width={200} height={200} />
                         </div>
                         <h3 className="text-lg font-bold text-[#685952] mb-2">25 AGUSTUS 2023</h3>
                         <p className="text-[#333] text-sm">
@@ -84,7 +84,7 @@ export default function LoveStory() {
                     {/* Story Card */}
                     <div className="bg-white rounded-2xl shadow-lg p-6 w-full max-w-2xl">
                         <div className="overflow-hidden rounded-xl mb-4">
-                            <Image src="/img/03.jpeg" alt="Love Story" className="w-full h-50 object-cover" width={200} height={500} />
+                            <Image src="https://jova-admin.mantappdev.com/storage/photos/love_story-3.jpg" alt="Love Story" className="w-full h-50 object-cover" width={200} height={200} />
                         </div>
                         <h3 className="text-lg font-bold text-[#685952] mb-2">25 AGUSTUS 2023</h3>
                         <p className="text-[#333] text-sm">

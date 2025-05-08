@@ -40,10 +40,10 @@ export default function Intro() {
                 <h2 className={`${nunito_sans.className} text-[16px] font-bold tracking-[1] text-[#333]`}>THE WEDDING OF</h2>
 
                 <div className="relative w-48 h-48 mx-auto my-4 rounded-full overflow-hidden border-4 border-white shadow-md">
-                    <Image src="/img/01.jpeg" alt="Couple" className="object-cover w-full h-full" fill/>
+                    <Image src="https://jova-admin.mantappdev.com/storage/photos/intro.jpg" alt="Couple" className="object-cover w-full h-full" fill/>
                 </div>
 
-                <h1 className={`${playball.className} text-4xl text-[#685952] my-4`}>Eva & Jonathan</h1>
+                <h1 className={`${playball.className} text-4xl text-[#685952] my-4`}>Jonathan & Eva</h1>
                 <p className={`${nunito_sans.className} text-[#333] mb-6`}>Sabtu, 31 Mei 2025</p>
 
                 {/* Countdown */}

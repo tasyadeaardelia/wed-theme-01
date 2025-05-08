@@ -5,7 +5,7 @@ export default function Background() {
         <div className="absolute inset-0 z-0 flex flex-col">
             <div className="absolute w-full h-[50vh]">
                 <Image
-                    src="/img/02.jpeg"
+                    src="https://jova-admin.mantappdev.com/storage/photos/cover.jpg"
                     alt="Couple Photo"
                     layout="fill"
                     objectFit="cover"

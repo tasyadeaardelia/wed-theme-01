@@ -8,7 +8,7 @@ export default function Foreground({ handleOpenInvitation, guestName }) {
             <h2 className={`${nunito_sans.className} text-[16px] tracking-[1] font-bold text-[#333]`}>
                 THE WEDDING OF
             </h2>
-            <h1 className={`${playball.className} text-[40px] text-[#685952] my-4`}>Eva & Jonathan</h1>
+            <h1 className={`${playball.className} text-[40px] text-[#685952] my-4`}>Jonathan & Eva</h1>
             <p className={`${inter.className} text-[#333] text-[14px] leading-[1.4em]`}>Kepada Yth.<br/>{ guestName ? guestName : 'Bapak/Ibu/Saudara/i'}
             </p>
             <p className={`${inter.className} text-[10px] italic text-[#333] mt-4`}>

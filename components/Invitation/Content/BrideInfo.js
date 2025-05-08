@@ -7,14 +7,14 @@ export default function BrideInfo() {
         <>
             <div className="mt-8 flex justify-center">
                 <Image
-                    src="/img/04-02.jpg"
+                    src="https://jova-admin.mantappdev.com/storage/photos/bride.jpg"
                     alt="Eva"
                     className="w-40 h-40 object-cover rounded-full border-4 border-white shadow-md"
-                    width={100}
-                    height={100}
+                    width={160}
+                    height={160}
                 />
             </div>
-            <h4 className={`${playball.className} mt-6 text-2xl text-[#685952]`}>Eva</h4>
+            <h4 className={`${playball.className} mt-6 text-2xl text-[#685952]`}>Sri Eva Swastika Br. Napitupulu, S.Pd</h4>
             
             <p className={`${nunito_sans.className} mt-2 text-[#333] text-[14px]`}>
                 <span className="font-bold">Putri dari</span><br />
