@@ -6,7 +6,7 @@ import {FaClock, FaTimes} from "react-icons/fa";
 export default function WeddingInfo() {
     return (
         <section
-            className={`${nunito_sans.className} relative flex flex-col justify-center items-start bg-[#69564B] py-20 px-10 pb-8`}>
+            className={`${nunito_sans.className} relative flex flex-col justify-center items-center bg-[#69564B] py-20 px-10 pb-8`}>
             {/* Pemberkatan Pernikahan */}
             <div className="relative z-0 max-w-md w-full bg-[#f9f4f0] rounded-3xl shadow-lg p-8 mb-8 text-center overflow-hidden bg-cover"
                 style={{backgroundImage: "url('img/bg-right.jpg')"}}

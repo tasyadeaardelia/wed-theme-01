@@ -7,7 +7,7 @@ import LoveStory from "./LoveStory";
 import Rsvp from "./Rsvp";
 import WeddingInfo from "./WeddingInfo";
 
-export default function Content() {
+export default function Content({ slugGuestName }) {
     return (
         <>
             <Intro/>
@@ -17,7 +17,7 @@ export default function Content() {
             <LoveStory/>
             <CoupleMoments/>
             <Gift/>
-            <Rsvp/>
+            <Rsvp slugGuestName={slugGuestName} />
         </>
     )
 }

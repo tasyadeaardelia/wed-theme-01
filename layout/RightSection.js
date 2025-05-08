@@ -4,7 +4,7 @@ import {useRef, useState} from "react"
 import {FaMusic, FaPause} from "react-icons/fa6";
 import {motion} from "framer-motion";
 
-export default function RightSection() {
+export default function RightSection({ guestName, slugGuestName }) {
     const [isOpened, setIsOpened] = useState(false);
     const [isFadingOut, setIsFadingOut] = useState(false);
     const [isMusicPlaying, setIsMusicPlaying] = useState(false);
@@ -65,9 +65,9 @@ export default function RightSection() {
             }}
         >
             {!isOpened ? (
-                <Cover handleOpenInvitation={handleOpenInvitation}/>
+                <Cover handleOpenInvitation={handleOpenInvitation} guestName={guestName} />
             ) : (
-                <Content/>
+                <Content slugGuestName={slugGuestName} />
             )}
 
             <button onClick={toggleMusic}
