@@ -48,7 +48,7 @@ export default function Rsvp({ slugGuestName }) {
 
     const fetchMessages = async () => {
         try {
-            const response = await fetch("http://localhost:8000/api/message-rsvp", {
+            const response = await fetch("https://jova-admin.mantappdev.com/api/message-rsvp", {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",
@@ -83,7 +83,7 @@ export default function Rsvp({ slugGuestName }) {
         };
 
         try {
-            const response = await fetch("http://localhost:8000/api/message-rsvp", {
+            const response = await fetch("https://jova-admin.mantappdev.com/api/message-rsvp", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

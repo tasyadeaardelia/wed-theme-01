@@ -26,7 +26,7 @@ export default function Home() {
             try {
                 const normalizedSlug = toParam.toLowerCase();
 
-                const res = await fetch(`http://127.0.0.1:8000/api/check-guest?to=${encodeURIComponent(normalizedSlug)}`, {
+                const res = await fetch(`https://jova-admin.mantappdev.com/api/check-guest?to=${encodeURIComponent(normalizedSlug)}`, {
                     method: 'GET',
                     cache: 'no-store',
                 });
