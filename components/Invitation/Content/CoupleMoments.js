@@ -1,3 +1,5 @@
+"use client"
+
 import FlowerFrame from "@/components/FlowerFrame/FlowerFrame";
 import {playball} from "@/app/font";
 import {useState} from "react";
