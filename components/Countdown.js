@@ -20,7 +20,7 @@ export default function Countdown() {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [weddingDate]);
 
   return (
     <div className="flex justify-center gap-4 mb-6">
