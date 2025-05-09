@@ -1,3 +1,5 @@
+'use client'
+
 import Content from "@/components/Invitation/Content/Content";
 import Cover from "@/components/Invitation/Cover/Cover";
 import {useRef, useState} from "react"
