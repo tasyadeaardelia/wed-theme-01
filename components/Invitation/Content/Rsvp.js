@@ -83,6 +83,11 @@ export default function Rsvp({ slugGuestName }) {
         };
 
         try {
+            await fetch("https://jova-admin.mantappdev.com/sanctum/csrf-cookie", {
+                credentials: "include",
+            });
+
+            
             const response = await fetch("https://jova-admin.mantappdev.com/api/message-rsvp", {
                 method: "POST",
                 headers: {
