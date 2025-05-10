@@ -18,7 +18,7 @@ export default function BrideInfo() {
             
             <p className={`${nunito_sans.className} mt-2 text-[#333] text-[14px]`}>
                 <span className="font-bold">Putri dari</span><br />
-                Bapak A dan Ibu B
+                Bapak H. Napitupulu dan Ibu N. Silitonga
             </p>
 
             

@@ -88,6 +88,7 @@ export default function Rsvp({ slugGuestName }) {
                 headers: {
                     "Content-Type": "application/json",
                 },
+                credentials: "include", // penting!
                 body: JSON.stringify(payload),
             });
 

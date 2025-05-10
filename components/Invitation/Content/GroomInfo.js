@@ -17,7 +17,7 @@ export default function GroomInfo() {
             <h4 className={`${playball.className} mt-6 text-2xl text-[#685952]`}>Jonathan Tambunan, S.H</h4>
             <p className={`${nunito_sans.className} mt-2 text-[#333] text-[14px]`}>
                 <span className="font-bold">Putra dari</span><br/>
-                Bapak A dan Ibu B
+                Bapak M. Tambunan (+) dan Ibu D. Siahaan
             </p>
             <a
                 href="https://instagram.com/jotam.sh"

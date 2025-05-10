@@ -36,7 +36,7 @@ export default function WeddingInfo() {
 
                 <div className="text-[#685952] font-bold text-base mb-6">
                     <p className="flex items-center justify-center gap-2">
-                        <FaClock/> 10:30 WIB
+                        <FaClock/> 10:00 WIB
                     </p>
                 </div>
 

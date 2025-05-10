@@ -1,8 +1,13 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Jova Theme 01",
+  title: "Jo & Eva",
   description: "Jonathan - Eva Wedding Theme 01",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/png" },
+    ],
+  }
 };
 
 export default function RootLayout({ children }) {

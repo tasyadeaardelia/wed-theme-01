@@ -14,7 +14,7 @@ export default function Content({ slugGuestName }) {
             <Ayat/>
             <CoupleInfo/>
             <WeddingInfo/>
-            <LoveStory/>
+            {/*<LoveStory/>*/}
             <CoupleMoments/>
             <Gift/>
             <Rsvp slugGuestName={slugGuestName} />
