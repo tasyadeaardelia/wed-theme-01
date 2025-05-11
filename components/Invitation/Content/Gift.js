@@ -35,8 +35,7 @@ export default function Gift() {
         }
     };
 
-    const copyToClipboard = () => {
-        const text = "6475284228";
+    const copyToClipboard = (text) => {
         if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
             navigator.clipboard.writeText(text)
                 .then(() => {
@@ -93,7 +92,7 @@ export default function Gift() {
                             </div>
                             {/* Copy Button */}
                             <button
-                                onClick={copyToClipboard}
+                                onClick={() => copyToClipboard('6475284228')}
                                 className="absolute bottom-4 right-4 flex items-center gap-1 text-xs bg-[#69564B] text-white
                                     px-3 py-1 rounded-full hover:bg-[#58483F] transition delay-150 duration-300 ease-in-out
                                     hover:-translate-y-1 hover:scale-110"
@@ -115,7 +114,7 @@ export default function Gift() {
                             </div>
                             {/* Copy Button */}
                             <button
-                                onClick={copyToClipboard}
+                                onClick={() => copyToClipboard('036701117583505')}
                                 className="absolute bottom-4 right-4 flex items-center gap-1 text-xs bg-[#69564B] text-white
                                     px-3 py-1 rounded-full hover:bg-[#58483F] transition delay-150 duration-300 ease-in-out
                                     hover:-translate-y-1 hover:scale-110"
