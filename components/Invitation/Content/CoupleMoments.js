@@ -5,16 +5,17 @@ import {playball} from "@/app/font";
 import {useState} from "react";
 import Image from "next/image";
 
+const timestamp = Date.now();
 const images = [
-    "https://jova-admin.mantappdev.com/storage/photos/gallery-1.jpg",
-    "https://jova-admin.mantappdev.com/storage/photos/gallery-2.jpg",
-    "https://jova-admin.mantappdev.com/storage/photos/gallery-3.jpg",
-    "https://jova-admin.mantappdev.com/storage/photos/gallery-4.jpg",
+    `https://jova-admin.mantappdev.com/storage/photos/gallery-1.jpg?ts=${timestamp}`,
+    `https://jova-admin.mantappdev.com/storage/photos/gallery-2.jpg?ts=${timestamp}`,
+    `https://jova-admin.mantappdev.com/storage/photos/gallery-3.jpg?ts=${timestamp}`,
+    `https://jova-admin.mantappdev.com/storage/photos/gallery-4.jpg?ts=${timestamp}`,
 ];
 
 export default function CoupleMoments() {
     const [selectedImage, setSelectedImage] = useState(
-        "https://jova-admin.mantappdev.com/storage/photos/gallery-3.jpg",
+       `https://jova-admin.mantappdev.com/storage/photos/gallery-2.jpg?ts=${timestamp}`,
     );
 
     return (
@@ -36,7 +37,7 @@ export default function CoupleMoments() {
                             className="h-auto max-w-full rounded-lg"
                             src={selectedImage}
                             alt="Selected"
-                            width={600} height={80}
+                            width={600} height={80} quality={100}
                         />
                     </div>
                     <div className="grid grid-cols-5 gap-4">
@@ -46,7 +47,7 @@ export default function CoupleMoments() {
                                     className="h-auto max-w-full rounded-lg cursor-pointer transition duration-200 ease-in-out hover:opacity-75 hover:scale-205"
                                     src={img}
                                     alt={`Thumbnail ${idx + 1}`}
-                                    width={100} height={100}
+                                    width={100} height={100} quality={100}
                                     onClick={() => setSelectedImage(img)}
                                 />
                             </div>

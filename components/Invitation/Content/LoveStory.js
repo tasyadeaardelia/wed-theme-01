@@ -19,12 +19,24 @@ export default function LoveStory() {
                     {/* Timeline vertical line */}
                     <div className="flex flex-col items-center mr-6 relative">
                         {/* Heart icon */}
-                        <div className="bg-white rounded-full p-3 shadow-lg border-2 border-[#69564B] z-10">
-                            <span className="text-2xl text-[#69564B]">❤️</span>
+                        <div className="w-12 h-12 bg-[#69564B] rounded-full flex items-center justify-center shadow-lg z-10">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="white"
+                                viewBox="0 0 24 24"
+                                className="w-6 h-6"
+                            >
+                                <path d="M12.001 4.529c2.349-2.532 6.149-2.53 8.497 0 2.174 2.345 2.204 6.093.086 8.465l-7.293 7.63a1.001 1.001 0 0 1-1.48 0l-7.293-7.63c-2.118-2.372-2.088-6.12.086-8.465 2.349-2.53 6.149-2.532 8.497 0z" />
+                            </svg>
                         </div>
 
-                        {/* Vertical line */}
-                        <div className="w-px bg-[#69564B]/50 flex-1 mt-2 mb-2"></div>
+                        {/* Timeline Line */}
+                        <div className="relative h-[60vh] mt-2 mb-2 w-px">
+                            {/* Brown filled part */}
+                            <div className="absolute w-px bg-[#69564B] h-full top-0"></div>
+                            {/* Faded base line */}
+                            <div className="absolute w-px bg-[#69564B]/10 h-full top-0"></div>
+                        </div>
                     </div>
 
                     {/* Story Card */}
@@ -46,12 +58,24 @@ export default function LoveStory() {
                     {/* Timeline vertical line */}
                     <div className="flex flex-col items-center mr-6 relative">
                         {/* Heart icon */}
-                        <div className="bg-white rounded-full p-3 shadow-lg border-2 border-[#69564B] z-10">
-                        <span className="text-2xl text-[#69564B]">❤️</span>
+                        <div className="w-12 h-12 bg-[#69564B] rounded-full flex items-center justify-center shadow-lg z-10">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="white"
+                                viewBox="0 0 24 24"
+                                className="w-6 h-6"
+                            >
+                                <path d="M12.001 4.529c2.349-2.532 6.149-2.53 8.497 0 2.174 2.345 2.204 6.093.086 8.465l-7.293 7.63a1.001 1.001 0 0 1-1.48 0l-7.293-7.63c-2.118-2.372-2.088-6.12.086-8.465 2.349-2.53 6.149-2.532 8.497 0z" />
+                            </svg>
                         </div>
 
-                        {/* Vertical line */}
-                        <div className="w-px bg-[#69564B]/50 flex-1 mt-2 mb-2"></div>
+                        {/* Timeline Line */}
+                        <div className="relative h-[60vh] mt-2 mb-2 w-px">
+                            {/* Brown filled part */}
+                            <div className="absolute w-px bg-[#69564B] h-full top-0"></div>
+                            {/* Faded base line */}
+                            <div className="absolute w-px bg-[#69564B]/10 h-full top-0"></div>
+                        </div>
                     </div>
 
                     {/* Story Card */}
@@ -73,12 +97,24 @@ export default function LoveStory() {
                     {/* Timeline vertical line */}
                     <div className="flex flex-col items-center mr-6 relative">
                         {/* Heart icon */}
-                        <div className="bg-white rounded-full p-3 shadow-lg border-2 border-[#69564B] z-10">
-                            <span className="text-2xl text-[#69564B]">❤️</span>
+                        <div className="w-12 h-12 bg-[#69564B] rounded-full flex items-center justify-center shadow-lg z-10">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="white"
+                                viewBox="0 0 24 24"
+                                className="w-6 h-6"
+                            >
+                                <path d="M12.001 4.529c2.349-2.532 6.149-2.53 8.497 0 2.174 2.345 2.204 6.093.086 8.465l-7.293 7.63a1.001 1.001 0 0 1-1.48 0l-7.293-7.63c-2.118-2.372-2.088-6.12.086-8.465 2.349-2.53 6.149-2.532 8.497 0z" />
+                            </svg>
                         </div>
 
-                        {/* Vertical line */}
-                        <div className="w-px bg-[#69564B]/50 flex-1 mt-2 mb-2"></div>
+                        {/* Timeline Line */}
+                        <div className="relative h-[60vh] mt-2 mb-2 w-px">
+                            {/* Brown filled part */}
+                            {/* <div className="absolute w-px bg-[#69564B] h-full top-0"></div> */}
+                            {/* Faded base line */}
+                            {/* <div className="absolute w-px bg-[#69564B]/10 h-full top-0"></div> */}
+                        </div>
                     </div>
 
                     {/* Story Card */}

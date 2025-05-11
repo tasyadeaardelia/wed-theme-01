@@ -63,7 +63,7 @@ export default function RightSection({ guestName, slugGuestName }) {
             className={`flex-[1.2] md:flex-[2.2] lg:flex-[1.5] relative bg-gradient-to-b bg-[#f9f4f0] flex flex-col overflow-y-auto 
                 h-screen scrollbar-hide`}
             style={{
-                backgroundImage: "url('img/bg-right.jpg')"
+                backgroundImage: `url(${!isOpened} ? 'img/cover.jpg' : 'img/bg-right.jpg')`
             }}
         >
             {!isOpened ? (

@@ -5,6 +5,7 @@ import Gift from "./Gift";
 import Intro from "./Intro";
 import LoveStory from "./LoveStory";
 import Rsvp from "./Rsvp";
+import ThankYou from "./ThankYou";
 import WeddingInfo from "./WeddingInfo";
 
 export default function Content({ slugGuestName }) {
@@ -18,6 +19,7 @@ export default function Content({ slugGuestName }) {
             <CoupleMoments/>
             <Gift/>
             <Rsvp slugGuestName={slugGuestName} />
+            <ThankYou />
         </>
     )
 }

@@ -1,37 +1,41 @@
 import FlowerFrame from "@/components/FlowerFrame/FlowerFrame";
+import {nunito_sans, playball, sora} from "@/app/font";
 import Image from "next/image";
 
 export default function ThankYou() {
+    const timestamp = Date.now(); // Akan berubah setiap render
+
     return (
-        <section className="relative flex justify-center items-start  flex-col bg-[#f9f4f0] py-20 px-4 pb-8 bg-cover"
+        <section className="relative flex justify-center items-start  flex-col bg-[#f9f4f0] py-20 px-4 pb-8 bg-cover overflow-y-clip"
             style={{
                 backgroundImage: "url('img/bg-right.jpg')"
             }}
         >
-            <FlowerFrame />
+            <FlowerFrame flowerSize={120} />
 
             <div className="relative z-10 max-w-xl mx-auto bg-[#FFFFFF95] border-solid border border-[#ffffffcc] transition-[background,border,border-radius,box-shadow] duration-300 mt-0 mb-0 p-0 rounded-3xl shadow-lg py-10 px-8 text-center">
-                <div className="mt-8 flex justify-center">
+                <div className="mt-8 mb-2 flex justify-center">
                     <Image
-                        src="/img/04.jpeg"
+                        src={`https://jova-admin.mantappdev.com/storage/photos/gallery-3.jpg?ts=${timestamp}`}
                         alt="Couple"
-                        width={100} height={100}
-                        className="w-60 h-70 object-cover rounded-full border-4 border-white shadow-md"
-                    />
+                        width={500} height={500}
+                        quality={100}
+                        className="w-80 h-80 rounded-full object-cover border-4 border-white shadow-md"
+                        />
                 </div>
-                <h2 className="text-2xl font-semibold mb-4">Terima kasih</h2>
-                <p className="text-gray-700">
+                <h2 className={`${nunito_sans.className} text-[16px] font-semibold mt-4 mb-4`}>Terima kasih</h2>
+                <p className={`${nunito_sans.className} text-[#333] text-[16px]`}>
                     Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, 
                     berkenan hadir dan memberikan do’a restu kepada kami.
                 </p>
 
             
                 {/* Deskripsi Anak */}
-                <p className="mt-5 text-gray-600 text-sm">
-                    Kami Yang Berbahagia
+                <p className={`${nunito_sans.className} font-semibold`}>
+                    See you on our wedding day!
                 </p>
 
-                <h4 className="mt-4 font-semibold text-2xl">Eva & Jonathan</h4>
+                <h4 className={`${playball.className} mt-4 font-bold text-2xl`}>Jonathan & Eva</h4>
             </div>
         </section>
     )

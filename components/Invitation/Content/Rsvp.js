@@ -13,30 +13,7 @@ export default function Rsvp({ slugGuestName }) {
     const [attendance_confirmation, setAttendanceConfirmation] = useState(null);
     const [submitted, setSubmitted] = useState(false);
     const [listMessage, setListMesssage] = useState([]); // <-- Ini buat simpan semua ucapan!
-    
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //
-    //     const newUcapan = {
-    //       nama,
-    //       ucapan,
-    //       kehadiran,
-    //       waktu: new Date().toLocaleString("id-ID", { dateStyle: "medium", timeStyle: "short" }),
-    //     };
-    //
-    //     setListUcapan([newUcapan, ...listUcapan]); // tambahkan di awal list
-    //     setSubmitted(true);
-    //
-    //     // Reset form setelah submit
-    //     setNama("");
-    //     setUcapan("");
-    //     setKehadiran(null);
-    //
-    //     // Supaya setelah submit beberapa saat form bisa muncul lagi kalau mau
-    //     setTimeout(() => {
-    //       setSubmitted(false);
-    //     }, 10000); // 3 detik baru form bisa muncul lagi
-    // };
+
 
     useEffect(() => {
         fetchMessages(); // Fetch saat komponen mount

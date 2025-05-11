@@ -5,7 +5,7 @@ import {FaBookOpen, FaBookOpenReader} from "react-icons/fa6";
 export default function Foreground({ handleOpenInvitation, guestName }) {
     return (
         <div className="relative flex flex-col z-10 text-center mt-[60vh]">
-            <h2 className={`${nunito_sans.className} text-[16px] tracking-[1] font-bold text-[#333]`}>
+            <h2 className={`${nunito_sans.className} text-[16px] tracking-[2] font-bold text-[#333]`}>
                 THE WEDDING OF
             </h2>
             <h1 className={`${playball.className} text-[40px] text-[#685952] my-4`}>Jonathan & Eva</h1>
