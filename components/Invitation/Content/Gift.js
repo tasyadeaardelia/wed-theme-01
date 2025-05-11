@@ -78,31 +78,51 @@ export default function Gift() {
                         animate={{ opacity: 1, y: 0}}
                         exit={{ opacity: 0, y: 20}}
                         transition={{ duration: 0.4}}
-                        className="mt-10 bg-white text-[#69564B] max-w-md mx-auto p-6 rounded-2xl shadow-lg relative"
+                        className="mt-10 grid gap-6 max-w-2xl mx-auto"
                     >
-                        {/* Card Top (BCA and Chip) */}
-                        <div className="flex justify-between items-start mb-5">
-                            <Image src="/img/bca.svg" alt="BCA" className="h-10" width={100} height={100} /> {/* <-- Pastikan path logo benar */}
+                        {/* Card 1 */}
+                        <div className="bg-white text-[#69564B] p-6 rounded-2xl shadow-lg relative">
+                            <div className="flex justify-between items-start mb-5">
+                                <Image src="/img/bca2.svg" alt="BCA" className="h-10" width={100} height={100} />
+                            </div>
+                            <div className={`${nunito_sans.className} mt-6 text-left`}>
+                                <p className="font-semibold">No Rekening</p>
+                                <p className={`${sora} text-2xl font-bold`}>6475284228</p>
+                                <p className="mt-6 font-semibold">Atas Nama</p>
+                                <p className="italic">Jonathan Tambunan, S.H</p>
+                            </div>
+                            {/* Copy Button */}
+                            <button
+                                onClick={copyToClipboard}
+                                className="absolute bottom-4 right-4 flex items-center gap-1 text-xs bg-[#69564B] text-white
+                                    px-3 py-1 rounded-full hover:bg-[#58483F] transition delay-150 duration-300 ease-in-out
+                                    hover:-translate-y-1 hover:scale-110"
+                            >
+                                <FaRegCopy /> Salin
+                            </button>
                         </div>
 
-                        {/* Card Details */}
-                        <div className={`${nunito_sans.className} mt-6 text-left`}>
-                            <p className="font-semibold">No Rekening</p>
-                            <p className={`${sora} text-2xl font-bold`}>6475284228</p>
 
-                            <p className="mt-6 font-semibold">Atas Nama</p>
-                            <p className="italic">Jonathan Tambunan, S.H</p>
+                        <div className="bg-white text-[#69564B] p-6 rounded-2xl shadow-lg relative">
+                            <div className="flex justify-between items-start mb-5">
+                                <Image src="/img/bri.svg" alt="BCA" className="h-10" width={100} height={100} />
+                            </div>
+                            <div className={`${nunito_sans.className} mt-6 text-left`}>
+                                <p className="font-semibold">No Rekening</p>
+                                <p className={`${sora} text-2xl font-bold`}>036701117583505</p>
+                                <p className="mt-6 font-semibold">Atas Nama</p>
+                                <p className="italic">Sri Eva Swastika</p>
+                            </div>
+                            {/* Copy Button */}
+                            <button
+                                onClick={copyToClipboard}
+                                className="absolute bottom-4 right-4 flex items-center gap-1 text-xs bg-[#69564B] text-white
+                                    px-3 py-1 rounded-full hover:bg-[#58483F] transition delay-150 duration-300 ease-in-out
+                                    hover:-translate-y-1 hover:scale-110"
+                            >
+                                <FaRegCopy /> Salin
+                            </button>
                         </div>
-
-                        {/* Copy Button */}
-                        <button
-                            onClick={copyToClipboard}
-                            className="absolute bottom-4 right-4 flex items-center gap-1 text-xs bg-[#69564B] text-white
-                                px-3 py-1 rounded-full hover:bg-[#58483F] transition delay-150 duration-300 ease-in-out
-                                hover:-translate-y-1 hover:scale-110"
-                        >
-                            <FaRegCopy /> Salin
-                        </button>
                     </motion.div>
                 )}
 

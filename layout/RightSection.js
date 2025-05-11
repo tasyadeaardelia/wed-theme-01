@@ -23,7 +23,7 @@ export default function RightSection({ guestName, slugGuestName }) {
             setIsOpened(true);
             setIsFadingOut(false);
             if (!audioRef.current) {
-                const audio = new Audio("/audio.mp3");
+                const audio = new Audio("/audio-new.mp3");
                 audio.loop = true;
                 audio.currentTime = 8;
                 audio.play();
@@ -62,9 +62,6 @@ export default function RightSection({ guestName, slugGuestName }) {
             ref={topRef}
             className={`flex-[1.2] md:flex-[2.2] lg:flex-[1.5] relative bg-gradient-to-b bg-[#f9f4f0] flex flex-col overflow-y-auto 
                 h-screen scrollbar-hide`}
-            style={{
-                backgroundImage: `url(${!isOpened} ? 'img/cover.jpg' : 'img/bg-right.jpg')`
-            }}
         >
             {!isOpened ? (
                 <Cover handleOpenInvitation={handleOpenInvitation} guestName={guestName} />
