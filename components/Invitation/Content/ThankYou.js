@@ -23,7 +23,7 @@ export default function ThankYou() {
                         className="w-80 h-80 rounded-full object-cover border-4 border-white shadow-md"
                         />
                 </div>
-                <h2 className={`${nunito_sans.className} text-[16px] font-semibold mt-4 mb-4`}>Terima kasih</h2>
+                <h2 className={`${nunito_sans.className} text-[16px] font-semibold mt-4 mb-4 text-[#333]`}>Terima kasih</h2>
                 <p className={`${nunito_sans.className} text-[#333] text-[16px]`}>
                     Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, 
                     berkenan hadir dan memberikan do’a restu kepada kami.
@@ -31,11 +31,11 @@ export default function ThankYou() {
 
             
                 {/* Deskripsi Anak */}
-                <p className={`${nunito_sans.className} font-semibold`}>
+                <p className={`${nunito_sans.className} font-semibold text-[#333]`}>
                     See you on our wedding day!
                 </p>
 
-                <h4 className={`${playball.className} mt-4 font-bold text-2xl`}>Jonathan & Eva</h4>
+                <h4 className={`${playball.className} mt-4 font-bold text-2xl text-[#685952]`}>Jonathan & Eva</h4>
             </div>
         </section>
     )
