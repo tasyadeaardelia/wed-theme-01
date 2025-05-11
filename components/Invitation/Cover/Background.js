@@ -14,7 +14,7 @@ export default function Background() {
                     priority
                 />
             </div>
-            <div className="absolute bottom-0 left-0 right-0 h-[60vh] bg-gradient-to-b from-transparent to-[#fef5e9]"></div>
+            <div className="absolute bottom-0 left-0 right-0 h-[60vh] bg-gradient-to-b from-transparent to-[#d5e6d4]"></div>
         </div>
     )
 }

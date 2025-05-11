@@ -32,25 +32,25 @@ export default function Intro() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="relative flex flex-col items-center p-8 pb-20 bg-cover overflow-y-clip"
             style={{
-                backgroundImage: "url('img/bg-right.jpg')"
+                backgroundImage: "url('img/bg-right-green.png')"
             }}
         >
             <FlowerFrame flowerSize={120}/>
             <div className="text-center mt-8">
-                <h2 className={`${nunito_sans.className} text-[16px] font-bold tracking-[1] text-[#333]`}>THE WEDDING OF</h2>
+                <h2 className={`${nunito_sans.className} text-[16px] font-bold tracking-[1] text-[#0d3e26]`}>THE WEDDING OF</h2>
 
                 <div className="relative w-48 h-48 mx-auto my-4 rounded-full overflow-hidden border-4 border-white shadow-md">
                     <Image src="https://jova-admin.mantappdev.com/storage/photos/intro.jpg" alt="Couple" className="object-cover w-full h-full" quality={100} fill/>
                 </div>
 
-                <h1 className={`${playball.className} text-4xl text-[#685952] my-4`}>Jonathan & Eva</h1>
-                <p className={`${nunito_sans.className} text-[#333] mb-6`}>Sabtu, 31 Mei 2025</p>
+                <h1 className={`${playball.className} text-4xl text-[#3b5851] my-4`}>Jonathan & Eva</h1>
+                <p className={`${nunito_sans.className} text-[#0d3e26] mb-6`}>Sabtu, 31 Mei 2025</p>
 
                 {/* Countdown */}
                 <Countdown />
 
                 {/* Save Date Button */}
-                <button className={`${nunito_sans.className} mt-4 mx-auto px-5 py-2 bg-[#685952] text-white text-[14px] 
+                <button className={`${nunito_sans.className} mt-4 mx-auto px-5 py-2 bg-[#3b5851] text-white text-[14px] 
                     rounded-full hover:bg-gray-900 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
                     hover:scale-110 flex items-center justify-center gap-2`} onClick={saveDate}>
                     <FaCalendarDays /> Simpan Tanggal

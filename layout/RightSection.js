@@ -60,7 +60,7 @@ export default function RightSection({ guestName, slugGuestName }) {
             animate={isFadingOut ? { opacity: 0, y: -90 } : { opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeInOut" }}
             ref={topRef}
-            className={`flex-[1.2] md:flex-[2.2] lg:flex-[1.5] relative bg-gradient-to-b bg-[#f9f4f0] flex flex-col overflow-y-auto 
+            className={`flex-[1.2] md:flex-[2.2] lg:flex-[1.5] relative bg-gradient-to-b bg-[#9CAF88] flex flex-col overflow-y-auto 
                 h-screen scrollbar-hide`}
         >
             {!isOpened ? (
@@ -70,7 +70,7 @@ export default function RightSection({ guestName, slugGuestName }) {
             )}
 
             <button onClick={toggleMusic}
-                    className="fixed z-10 bottom-6 right-6 p-4 bg-[#685952] text-white rounded-full shadow-lg">
+                    className="fixed z-10 bottom-6 right-6 p-4 bg-[#3b5851] text-white rounded-full shadow-lg">
                 {isMusicPlaying ? <FaPause size={24}/> : <FaMusic size={24}/>}
             </button>
         </motion.div>

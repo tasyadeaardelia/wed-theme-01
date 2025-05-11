@@ -5,9 +5,9 @@ import {nunito_sans, playball} from "@/app/font";
 
 export default function CoupleInfo() {
     return (
-        <section className="relative flex justify-center items-start flex-col bg-[#f9f4f0] py-20 px-4 pb-8 bg-cover overflow-y-clip"
+        <section className="relative flex justify-center items-start flex-col bg-[#3b5851] py-20 px-4 pb-8 bg-cover overflow-y-clip"
             style={{
-                backgroundImage: "url('img/bg-right.jpg')"
+                backgroundImage: "url('img/bg-right-green.png')"
             }}
         >
             <FlowerFrame flowerSize={120} />
@@ -23,7 +23,7 @@ export default function CoupleInfo() {
                 <GroomInfo />
                 {/* Separator & */}
                 <div className="my-8">
-                    <span className={`${playball.className} text-[32px] font-bold text-[#685952]`}>&amp;</span>
+                    <span className={`${playball.className} text-[32px] font-bold text-[#3b5851]`}>&amp;</span>
                 </div>
                 <BrideInfo />
             </div>

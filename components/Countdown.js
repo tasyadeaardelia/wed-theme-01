@@ -34,7 +34,7 @@ export default function Countdown() {
 
 function CountdownItem({ value, label }) {
   return (
-    <div className="flex flex-col items-center bg-[#685952] text-[#fff] rounded-md px-4 py-2 w-16">
+    <div className="flex flex-col items-center bg-[#3b5851] text-[#fff] rounded-md px-4 py-2 w-16">
       <span className="text-lg font-bold">{value}</span>
       <span className="text-xs">{label}</span>
     </div>

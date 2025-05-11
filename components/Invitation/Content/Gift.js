@@ -57,14 +57,14 @@ export default function Gift() {
 
     return (
         <div className="flex flex-col items-center bg-white pt-0 pb-0 px-0">
-            <section className={`${nunito_sans.className} bg-[#69564B] text-sm text-white text-center w-full py-20 px-10`}>
+            <section className={`${nunito_sans.className} bg-[#3b5851] text-sm text-white text-center w-full py-20 px-10`}>
                 <h2 className={`${playball.className} text-4xl mb-6`}>Wedding Gift</h2>
                 <p className="mb-2">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.</p>
                 <p className="mb-6">Dan jika memberi adalah ungkapan tanda kasih, Anda dapat memberi melalui dibawah ini.</p>
 
                 <button 
                     onClick={toggleGiftCard}
-                    className="flex items-center gap-2 bg-white text-[#69564B] px-6 py-1 rounded-full font-medium mx-auto transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    className="flex items-center gap-2 bg-white text-[#3b5851] px-6 py-1 rounded-full font-medium mx-auto transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
                     <FaCreditCard className="text-sm"/>
                     Klik di Sini
                 </button>
@@ -80,7 +80,7 @@ export default function Gift() {
                         className="mt-10 grid gap-6 max-w-2xl mx-auto"
                     >
                         {/* Card 1 */}
-                        <div className="bg-white text-[#69564B] p-6 rounded-2xl shadow-lg relative">
+                        <div className="bg-white text-[#3b5851] p-6 rounded-2xl shadow-lg relative">
                             <div className="flex justify-between items-start mb-5">
                                 <Image src="/img/bca2.svg" alt="BCA" className="h-10" width={100} height={100} />
                             </div>
@@ -93,7 +93,7 @@ export default function Gift() {
                             {/* Copy Button */}
                             <button
                                 onClick={() => copyToClipboard('6475284228')}
-                                className="absolute bottom-4 right-4 flex items-center gap-1 text-xs bg-[#69564B] text-white
+                                className="absolute bottom-4 right-4 flex items-center gap-1 text-xs bg-[#3b5851] text-white
                                     px-3 py-1 rounded-full hover:bg-[#58483F] transition delay-150 duration-300 ease-in-out
                                     hover:-translate-y-1 hover:scale-110"
                             >
@@ -102,7 +102,7 @@ export default function Gift() {
                         </div>
 
 
-                        <div className="bg-white text-[#69564B] p-6 rounded-2xl shadow-lg relative">
+                        <div className="bg-white text-[#3b5851] p-6 rounded-2xl shadow-lg relative">
                             <div className="flex justify-between items-start mb-5">
                                 <Image src="/img/bri.svg" alt="BCA" className="h-10" width={100} height={100} />
                             </div>
@@ -115,7 +115,7 @@ export default function Gift() {
                             {/* Copy Button */}
                             <button
                                 onClick={() => copyToClipboard('036701117583505')}
-                                className="absolute bottom-4 right-4 flex items-center gap-1 text-xs bg-[#69564B] text-white
+                                className="absolute bottom-4 right-4 flex items-center gap-1 text-xs bg-[#3b5851] text-white
                                     px-3 py-1 rounded-full hover:bg-[#58483F] transition delay-150 duration-300 ease-in-out
                                     hover:-translate-y-1 hover:scale-110"
                             >

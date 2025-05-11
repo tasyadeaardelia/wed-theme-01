@@ -1,7 +1,7 @@
 "use client"
 
 import FlowerFrame from "@/components/FlowerFrame/FlowerFrame";
-import {playball} from "@/app/font";
+import {playball, nunito_sans} from "@/app/font";
 import {useState} from "react";
 import Image from "next/image";
 
@@ -11,6 +11,8 @@ const images = [
     `https://jova-admin.mantappdev.com/storage/photos/gallery-2.jpg?ts=${timestamp}`,
     `https://jova-admin.mantappdev.com/storage/photos/gallery-3.jpg?ts=${timestamp}`,
     `https://jova-admin.mantappdev.com/storage/photos/gallery-4.jpg?ts=${timestamp}`,
+    `https://jova-admin.mantappdev.com/storage/photos/gallery-5.jpg?ts=${timestamp}`,
+    `https://jova-admin.mantappdev.com/storage/photos/gallery-6.jpg?ts=${timestamp}`,
 ];
 
 export default function CoupleMoments() {
@@ -21,7 +23,7 @@ export default function CoupleMoments() {
     return (
         <section className="relative flex justify-center items-start  flex-col bg-[#f9f4f0] py-20 px-4 pb-8 bg-cover overflow-y-clip"
             style={{
-                backgroundImage: "url('img/bg-right.jpg')"
+                backgroundImage: "url('img/bg-right-green.png')"
             }}
         
         >
@@ -29,7 +31,13 @@ export default function CoupleMoments() {
             <div className="relative z-10 max-w-xl mx-auto bg-[#FFFFFF95] border-solid
                 border border-[#ffffffcc] transition-[background,border,border-radius,box-shadow] duration-300 mt-0
                 mb-0 p-0 rounded-3xl shadow-lg py-10 px-8 text-center">
-                <h2 className={`${playball.className} text-3xl text-[#685952] font-semibold mb-4`}>Our Moments</h2>
+                <h2 className={`${playball.className} text-3xl text-[#3b5851] font-semibold mb-4`}>Our Moments</h2>
+                <p className={`${nunito_sans.className} text-[#333] text-[16px] mb-4`}>
+                    Anda pernah menghirup aroma kebahagian?. Jika anda pernah menghirupnya maka, sama saya juga sedang merasakannya. 
+                    Come n join us to the party wedding kami.
+                    <br/>
+                    <span className="italic">Jonathan & Eva 🕊️</span>
+                </p>
 
                 <div className="grid gap-4">
                     <div>
