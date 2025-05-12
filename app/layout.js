@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Jo & Eva",
-  description: "Jonathan - Eva Wedding Theme 01",
+  description: "Anda pernah menghirup aroma kebahagiaan?. Jika anda pernah menghirupnya, maka sama kami juga sedang merasakannya.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "32x32", type: "image/png" },

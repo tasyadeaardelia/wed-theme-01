@@ -60,9 +60,9 @@ export default function Rsvp({ slugGuestName }) {
         };
 
         try {
-            await fetch("https://jova-admin.mantappdev.com/sanctum/csrf-cookie", {
-                credentials: "include",
-            });
+            // await fetch("https://jova-admin.mantappdev.com/sanctum/csrf-cookie", {
+            //     credentials: "include",
+            // });
 
             
             const response = await fetch("https://jova-admin.mantappdev.com/api/message-rsvp", {
@@ -70,7 +70,7 @@ export default function Rsvp({ slugGuestName }) {
                 headers: {
                     "Content-Type": "application/json",
                 },
-                credentials: "include", // penting!
+                // credentials: "include", // penting!
                 body: JSON.stringify(payload),
             });
 
