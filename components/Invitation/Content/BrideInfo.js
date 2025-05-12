@@ -3,11 +3,12 @@ import {FaInstagram} from "react-icons/fa6";
 import Image from "next/image";
 
 export default function BrideInfo() {
+    const timestamp = Date.now();
     return (
         <>
             <div className="mt-8 flex justify-center">
                 <Image
-                    src="https://jova-admin.mantappdev.com/storage/photos/bride.jpg"
+                    src={`https://jova-admin.mantappdev.com/storage/photos/bride.jpg?ts=${timestamp}`}
                     alt="Eva"
                     className="w-40 h-40 object-cover rounded-full border-4 border-white shadow-md"
                     width={160}
