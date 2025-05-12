@@ -33,8 +33,8 @@ export default function CoupleMoments() {
                 mb-0 p-0 rounded-3xl shadow-lg py-10 px-8 text-center">
                 <h2 className={`${playball.className} text-3xl text-[#3b5851] font-semibold mb-4`}>Our Moments</h2>
                 <p className={`${nunito_sans.className} text-[#333] text-[16px] mb-4`}>
-                    Anda pernah menghirup aroma kebahagian?. Jika anda pernah menghirupnya maka, sama saya juga sedang merasakannya. 
-                    Come n join us to the party wedding kami.
+                    Anda pernah menghirup aroma kebahagiaan?. Jika anda pernah menghirupnya maka sama, kami juga sedang merasakannya. 
+                    Come & join us to our wedding.
                     <br/>
                     <span className="italic">Jonathan & Eva 🕊️</span>
                 </p>

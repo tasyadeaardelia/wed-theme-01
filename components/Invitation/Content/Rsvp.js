@@ -125,7 +125,7 @@ export default function Rsvp({ slugGuestName }) {
                             placeholder="Nama"
                             value={name}
                             onChange={(e) => setName(e.target.value)}
-                            className="w-full p-3 border border-[#d5deea] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#69564B]/50 text-[#69564B]"
+                            className="w-full p-3 border border-[#d5deea] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#3b5851]/50 text-[#3b5851]"
                             required
                         />
                         <input
@@ -166,7 +166,7 @@ export default function Rsvp({ slugGuestName }) {
 
                         <button type="submit"
                                 className={`w-full px-5 py-1 rounded-full transition delay-150 duration-300 ease-in-out 
-        ${isButtonDisabled ? 'bg-gray-300 text-gray-700 cursor-not-allowed' : 'bg-[#3b5851] text-white hover:bg-[#57463b] hover:-translate-y-1 hover:scale-110'}`}
+        ${isButtonDisabled ? 'bg-gray-300 text-gray-700 cursor-not-allowed' : 'bg-[#3b5851] text-white hover:bg-[#3b5851] hover:-translate-y-1 hover:scale-110'}`}
                                 disabled={isButtonDisabled} // Disable button jika kondisi terpenuhi
                         >
                             Kirim

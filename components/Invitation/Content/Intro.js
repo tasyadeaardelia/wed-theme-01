@@ -50,7 +50,7 @@ export default function Intro() {
                 <Countdown />
 
                 {/* Save Date Button */}
-                <button className={`${nunito_sans.className} mt-4 mx-auto px-5 py-2 bg-[#3b5851] text-white text-[14px] 
+                <button className={`${nunito_sans.className} z-[60] relative mt-4 mx-auto px-5 py-2 bg-[#3b5851] text-white text-[14px] 
                     rounded-full hover:bg-gray-900 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
                     hover:scale-110 flex items-center justify-center gap-2`} onClick={saveDate}>
                     <FaCalendarDays /> Simpan Tanggal

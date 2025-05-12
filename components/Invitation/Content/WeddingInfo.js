@@ -6,7 +6,7 @@ import {FaClock, FaTimes} from "react-icons/fa";
 export default function WeddingInfo() {
     return (
         <section
-            className={`${nunito_sans.className} relative flex flex-col justify-center items-center bg-[#3b5851] py-20 px-10 pb-8`}>
+            className={`${nunito_sans.className} relative flex flex-col justify-center items-center bg-[#3b5851] py-20 px-6 pb-8`}>
             {/* Pemberkatan Pernikahan */}
             <div className="relative z-0 max-w-md w-full bg-[#f9f4f0] rounded-3xl shadow-lg p-8 mb-8 text-center overflow-hidden bg-cover"
                 style={{backgroundImage: "url('img/bg-right-green.png')"}}
@@ -50,7 +50,7 @@ export default function WeddingInfo() {
                     <a
                         href="https://maps.app.goo.gl/ignAw6vpr8AqTF3V6"
                         target="_blank"
-                        className="inline-flex items-center gap-2 bg-[#3b5851] text-white px-4 py-1 rounded-full text-sm hover:bg-[#3b5851] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+                        className="z-[60] relative inline-flex items-center gap-2 bg-[#3b5851] text-white px-4 py-1 rounded-full text-sm hover:bg-[#3b5851] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                     >
                         <FaMapLocationDot/>Google Maps
                     </a>
@@ -103,7 +103,7 @@ export default function WeddingInfo() {
                     <a
                         href="https://maps.app.goo.gl/r4PixGx5b3Mt8bVE9"
                         target="_blank"
-                        className="inline-flex items-center gap-2 bg-[#3b5851] text-white px-4 py-1 rounded-full text-sm hover:bg-[#3b5851] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+                        className="z-60 relative inline-flex items-center gap-2 bg-[#3b5851] text-white px-4 py-1 rounded-full text-sm hover:bg-[#3b5851] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                     >
                         <FaMapLocationDot/>Google Maps
                     </a>
