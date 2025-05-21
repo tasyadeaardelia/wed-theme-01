@@ -15,7 +15,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://jo-eva.mantappdev.com/IMG_2237.jpg", // ← ganti dengan gambar untuk preview WhatsApp
+        url: "https://jova-admin.mantappdev.com/IMG_2237.jpg", // ← ganti dengan gambar untuk preview WhatsApp
         width: 1200,
         height: 630,
         alt: "Jo & Eva Preview",
