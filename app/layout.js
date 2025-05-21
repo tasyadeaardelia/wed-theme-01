@@ -7,7 +7,21 @@ export const metadata = {
     icon: [
       { url: "/favicon.ico", sizes: "any", type: "image/png" },
     ],
-  }
+  },
+  openGraph: {
+    title: "Jo & Eva",
+    description: "Anda pernah menghirup aroma kebahagiaan?. Jika anda pernah menghirupnya, maka sama kami juga sedang merasakannya.",
+    url: "https://jo-eva.mantappdev.com", // ← ganti dengan domain kamu
+    type: "website",
+    images: [
+      {
+        url: "https://jo-eva.mantappdev.com/IMG_2237.jpg", // ← ganti dengan gambar untuk preview WhatsApp
+        width: 1200,
+        height: 630,
+        alt: "Jo & Eva Preview",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
