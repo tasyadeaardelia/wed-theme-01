@@ -81,8 +81,8 @@ export default function Gift() {
                     >
                         {/* Card 1 */}
                         <div className="bg-white text-[#3b5851] p-6 rounded-2xl shadow-lg relative">
-                            <div className="flex justify-between items-start mb-5">
-                                <Image src="/img/bca2.svg" alt="BCA" className="h-10" width={100} height={100} />
+                            <div className="flex justify-between items-start">
+                                <Image src="/img/bca2.svg" alt="BCA" className="w-15" width={80} height={5} />
                             </div>
                             <div className={`${nunito_sans.className} mt-6 text-left`}>
                                 <p className="font-semibold">No Rekening</p>
@@ -104,7 +104,7 @@ export default function Gift() {
 
                         <div className="bg-white text-[#3b5851] p-6 rounded-2xl shadow-lg relative">
                             <div className="flex justify-between items-start mb-5">
-                                <Image src="/img/bri.svg" alt="BCA" className="h-10" width={100} height={100} />
+                                <Image src="/img/bri.svg" alt="BCA" className="w-10" width={100} height={5} />
                             </div>
                             <div className={`${nunito_sans.className} mt-6 text-left`}>
                                 <p className="font-semibold">No Rekening</p>
