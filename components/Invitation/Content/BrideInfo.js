@@ -8,7 +8,7 @@ export default function BrideInfo() {
         <>
             <div className="mt-8 flex justify-center">
                 <Image
-                    src={`https://jova-admin.mantappdev.com/storage/photos/bride.jpg?ts=${timestamp}`}
+                    src="/img/bride.jpg"
                     alt="Eva"
                     className="w-40 h-40 object-cover rounded-full border-4 border-white shadow-md"
                     width={160}

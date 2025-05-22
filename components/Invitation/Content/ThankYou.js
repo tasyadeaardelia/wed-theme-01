@@ -16,7 +16,7 @@ export default function ThankYou() {
             <div className="relative z-10 max-w-xl mx-auto bg-[#FFFFFF95] border-solid border border-[#ffffffcc] transition-[background,border,border-radius,box-shadow] duration-300 mt-0 mb-0 p-0 rounded-3xl shadow-lg py-10 px-8 text-center">
                 <div className="mt-8 mb-2 flex justify-center">
                     <Image
-                        src={`https://jova-admin.mantappdev.com/storage/photos/thank-you.jpg?ts=${timestamp}`}
+                        src='/img/thank-you.jpg'
                         alt="Couple"
                         width={500} height={500}
                         quality={100}

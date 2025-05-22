@@ -7,12 +7,12 @@ import Image from "next/image";
 
 const timestamp = Date.now();
 const images = [
-    `https://jova-admin.mantappdev.com/storage/photos/gallery-1.jpg?ts=${timestamp}`,
+    `/img/gallery-1.jpg`,
     `https://jova-admin.mantappdev.com/storage/photos/gallery-2.jpg?ts=${timestamp}`,
     `https://jova-admin.mantappdev.com/storage/photos/gallery-3.jpg?ts=${timestamp}`,
     `https://jova-admin.mantappdev.com/storage/photos/gallery-4.jpg?ts=${timestamp}`,
     `https://jova-admin.mantappdev.com/storage/photos/gallery-5.jpg?ts=${timestamp}`,
-    `https://jova-admin.mantappdev.com/storage/photos/gallery-6.jpg?ts=${timestamp}`,
+    `/img/gallery-6.jpg`,
 ];
 
 export default function CoupleMoments() {

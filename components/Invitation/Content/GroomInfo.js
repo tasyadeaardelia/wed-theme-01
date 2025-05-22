@@ -8,7 +8,7 @@ export default function GroomInfo() {
         <>
             <div className="mt-8 flex justify-center">
                 <Image
-                    src={`https://jova-admin.mantappdev.com/storage/photos/groom.jpg?ts=${timestamp}`}
+                    src='/img/groom.jpg'
                     alt="Jonathan Tambunan, S.H"
                     className="w-40 h-40 object-cover rounded-full border-4 border-white shadow-md"
                     width={160}
