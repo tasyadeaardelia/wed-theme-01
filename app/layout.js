@@ -1,5 +1,4 @@
 import "./globals.css";
-import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   title: "Jo & Eva",
@@ -30,7 +29,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
     <body className="antialiased"> 
       {children}
-      <Analytics />
     </body>
     </html>
   );
